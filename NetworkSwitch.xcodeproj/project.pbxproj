@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C11472D116BB900900256FB8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11472D016BB900900256FB8 /* Cocoa.framework */; };
+		C11472DB16BB900900256FB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C11472D916BB900900256FB8 /* InfoPlist.strings */; };
+		C11472DD16BB900900256FB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C11472DC16BB900900256FB8 /* main.m */; };
+		C11472E116BB900900256FB8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C11472DF16BB900900256FB8 /* Credits.rtf */; };
+		C11472E416BB900900256FB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C11472E316BB900900256FB8 /* AppDelegate.m */; };
+		C11472E716BB900900256FB8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C11472E516BB900900256FB8 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C11472CD16BB900900256FB8 /* NetworkSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11472D016BB900900256FB8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C11472D316BB900900256FB8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C11472D416BB900900256FB8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C11472D516BB900900256FB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C11472D816BB900900256FB8 /* NetworkSwitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkSwitch-Info.plist"; sourceTree = "<group>"; };
+		C11472DA16BB900900256FB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C11472DC16BB900900256FB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C11472DE16BB900900256FB8 /* NetworkSwitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkSwitch-Prefix.pch"; sourceTree = "<group>"; };
+		C11472E016BB900900256FB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C11472E216BB900900256FB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C11472E316BB900900256FB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C11472E616BB900900256FB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C11472CA16BB900900256FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11472D116BB900900256FB8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C11472C416BB900900256FB8 = {
+			isa = PBXGroup;
+			children = (
+				C11472D616BB900900256FB8 /* NetworkSwitch */,
+				C11472CF16BB900900256FB8 /* Frameworks */,
+				C11472CE16BB900900256FB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C11472CE16BB900900256FB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11472CD16BB900900256FB8 /* NetworkSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C11472CF16BB900900256FB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C11472D016BB900900256FB8 /* Cocoa.framework */,
+				C11472D216BB900900256FB8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C11472D216BB900900256FB8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C11472D316BB900900256FB8 /* AppKit.framework */,
+				C11472D416BB900900256FB8 /* CoreData.framework */,
+				C11472D516BB900900256FB8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C11472D616BB900900256FB8 /* NetworkSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				C11472E216BB900900256FB8 /* AppDelegate.h */,
+				C11472E316BB900900256FB8 /* AppDelegate.m */,
+				C11472E516BB900900256FB8 /* MainMenu.xib */,
+				C11472D716BB900900256FB8 /* Supporting Files */,
+			);
+			path = NetworkSwitch;
+			sourceTree = "<group>";
+		};
+		C11472D716BB900900256FB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C11472D816BB900900256FB8 /* NetworkSwitch-Info.plist */,
+				C11472D916BB900900256FB8 /* InfoPlist.strings */,
+				C11472DC16BB900900256FB8 /* main.m */,
+				C11472DE16BB900900256FB8 /* NetworkSwitch-Prefix.pch */,
+				C11472DF16BB900900256FB8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C11472CC16BB900900256FB8 /* NetworkSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11472EA16BB900900256FB8 /* Build configuration list for PBXNativeTarget "NetworkSwitch" */;
+			buildPhases = (
+				C11472C916BB900900256FB8 /* Sources */,
+				C11472CA16BB900900256FB8 /* Frameworks */,
+				C11472CB16BB900900256FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkSwitch;
+			productName = NetworkSwitch;
+			productReference = C11472CD16BB900900256FB8 /* NetworkSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C11472C516BB900900256FB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Xinrong Guo";
+			};
+			buildConfigurationList = C11472C816BB900900256FB8 /* Build configuration list for PBXProject "NetworkSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C11472C416BB900900256FB8;
+			productRefGroup = C11472CE16BB900900256FB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C11472CC16BB900900256FB8 /* NetworkSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C11472CB16BB900900256FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11472DB16BB900900256FB8 /* InfoPlist.strings in Resources */,
+				C11472E116BB900900256FB8 /* Credits.rtf in Resources */,
+				C11472E716BB900900256FB8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C11472C916BB900900256FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11472DD16BB900900256FB8 /* main.m in Sources */,
+				C11472E416BB900900256FB8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C11472D916BB900900256FB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11472DA16BB900900256FB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C11472DF16BB900900256FB8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11472E016BB900900256FB8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C11472E516BB900900256FB8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11472E616BB900900256FB8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C11472E816BB900900256FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C11472E916BB900900256FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C11472EB16BB900900256FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkSwitch/NetworkSwitch-Prefix.pch";
+				INFOPLIST_FILE = "NetworkSwitch/NetworkSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C11472EC16BB900900256FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkSwitch/NetworkSwitch-Prefix.pch";
+				INFOPLIST_FILE = "NetworkSwitch/NetworkSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C11472C816BB900900256FB8 /* Build configuration list for PBXProject "NetworkSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11472E816BB900900256FB8 /* Debug */,
+				C11472E916BB900900256FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11472EA16BB900900256FB8 /* Build configuration list for PBXNativeTarget "NetworkSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11472EB16BB900900256FB8 /* Debug */,
+				C11472EC16BB900900256FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C11472C516BB900900256FB8 /* Project object */;
+}
