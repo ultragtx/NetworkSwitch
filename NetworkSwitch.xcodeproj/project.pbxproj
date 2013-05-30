@@ -14,6 +14,8 @@
 		C11472E416BB900900256FB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C11472E316BB900900256FB8 /* AppDelegate.m */; };
 		C11472E716BB900900256FB8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C11472E516BB900900256FB8 /* MainMenu.xib */; };
 		C11472EE16BB906800256FB8 /* MenuBarIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C11472ED16BB906800256FB8 /* MenuBarIcon.pdf */; };
+		C1F5A2C8175771CE00C866AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F5A2C7175771CE00C866AB /* SystemConfiguration.framework */; };
+		C1F5A2CA1757733B00C866AB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F5A2C91757733B00C866AB /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		C11472E316BB900900256FB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C11472E616BB900900256FB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C11472ED16BB906800256FB8 /* MenuBarIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MenuBarIcon.pdf; sourceTree = "<group>"; };
+		C1F5A2C7175771CE00C866AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C1F5A2C91757733B00C866AB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F5A2CA1757733B00C866AB /* Security.framework in Frameworks */,
+				C1F5A2C8175771CE00C866AB /* SystemConfiguration.framework in Frameworks */,
 				C11472D116BB900900256FB8 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +71,8 @@
 		C11472CF16BB900900256FB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C1F5A2C91757733B00C866AB /* Security.framework */,
+				C1F5A2C7175771CE00C866AB /* SystemConfiguration.framework */,
 				C11472D016BB900900256FB8 /* Cocoa.framework */,
 				C11472D216BB900900256FB8 /* Other Frameworks */,
 			);
@@ -311,6 +319,7 @@
 				C11472EC16BB900900256FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
