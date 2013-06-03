@@ -79,7 +79,6 @@
     else {
         [modifiedProxies setObject:[NSNumber numberWithInt:0] forKey:(NSString *)kCFNetworkProxiesSOCKSEnable];
     }
-    
     return modifiedProxies;
 }
 
@@ -93,11 +92,13 @@
         NSDictionary *dict = [sets objectForKey:key];
         NSString *hardware = [dict valueForKeyPath:@"Interface.Hardware"];
         if ([hardware isEqualToString:@"Ethernet"] || [hardware isEqualToString:@"AirPort"]) {
+//            NSLog(@"%@", [dict description]);
             NSDictionary *proxies = [dict objectForKey:(NSString *)kSCEntNetProxies];
 //            NSLog(@"%@", [proxies description]);
             if (proxies) { // Here we assume there's alaways a "Proxies" key
-                NSDictionary *modifiedProxies = [self modifiedProxiesDictWithDict:dict proxyEnabled:enabled];
-                SCPreferencesPathSetValue(prefRef, (__bridge CFStringRef)[self proxiesPathOfDevice:key], (__bridge CFDictionaryRef)modifiedProxies);
+                NSDictionary *modifiedProxies = [self modifiedProxiesDictWithDict:proxies proxyEnabled:enabled];
+                NSString *path = [self proxiesPathOfDevice:key];
+                SCPreferencesPathSetValue(prefRef, (__bridge CFStringRef)path, (__bridge CFDictionaryRef)modifiedProxies);
             }
         }
     }
